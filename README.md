@@ -2,4 +2,4 @@
 
 Jekyll comes with a local server that supports auto reloading. Run it using `jekyll serve` and view the website at `localhost:4000` in your browser.
 
-Check it out at [rushan.pelagicapps.com](https://rushan.pelagicapps.com).
+Check out the live version at [rushan.pelagicapps.com](https://rushan.pelagicapps.com).
