@@ -1,0 +1,8 @@
+- section:  "About"
+  endpoint: "/"
+- section:  "Links"
+  endpoint: "/links"
+- section:  "Projects"
+  endpoint: "/projects"
+- section:  "Blog"
+  endpoint: "/blog"

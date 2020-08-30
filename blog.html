@@ -1,0 +1,9 @@
+---
+layout: skeleton
+title: Blog
+subtitle: This section is empty for now.
+---
+
+{% assign posts_latest_first = site.blog | reverse %}
+
+{% include common-list.html content=posts_latest_first %}

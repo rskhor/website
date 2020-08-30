@@ -1,0 +1,29 @@
+---
+layout: skeleton
+title: Weekend Projects
+subtitle: Mostly illustrations and software stuff.
+---
+
+{% assign sorted_projects = site.projects | reverse %}
+
+<ul>
+  <div class="projects-grid">
+    {% for project in sorted_projects %}
+
+      <li>
+          {% assign clean_url_size = project.url | size | minus: 5 %}
+          <a href={{ project.url | slice: 0, clean_url_size }}>
+
+            <img
+              class="projects-grid-item-image"
+              src="{{ project.thumbnail }}"
+              alt='Image thumbnail for "{{ project.title }}"'
+              title='Image thumbnail for "{{ project.title }}"'
+            />
+
+          </a>
+      </li>
+
+    {% endfor %}
+  </div>
+</ul>

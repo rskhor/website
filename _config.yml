@@ -1,0 +1,7 @@
+destination: ./rushan
+
+collections:
+  projects:
+    output: true
+  blog:
+    output: true

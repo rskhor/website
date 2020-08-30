@@ -1,0 +1,18 @@
+<ul class="common-list">
+  {% for item in include.content %}
+
+  <li>
+
+      <a
+        class="common-list-item-shadow"
+        href="{{ item.url }}"
+      >
+
+        <div class="common-list-item">{{ item.title }}</div>
+
+      </a>
+
+  </li>
+
+  {% endfor %}
+<ul>

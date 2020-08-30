@@ -1,0 +1,40 @@
+.common-list {
+  max-width: 600px;
+
+  margin: 0px auto;
+
+  list-style-type: none;
+}
+
+.common-list-item {
+  margin: 20px 0px;
+  padding: 15px 20px;
+
+  border-radius: 20px;
+
+  background-color: #F0F0F0;
+
+  transition: transform 0.05s ease;
+}
+
+.common-list-item-shadow {
+  display: block;
+
+  border-radius: 20px;
+
+  background-color: #BDBDBD;
+
+  text-decoration: none;
+}
+
+.common-list-item-shadow:hover {
+  opacity: 100%;
+}
+
+.common-list-item-shadow:hover > .common-list-item {
+  transform: translate(0px, -2px);
+}
+
+.common-list-item-shadow:active > .common-list-item {
+  transform: translate(0px, 0px);
+}

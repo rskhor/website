@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+    <title>{{ page.title }}</title>
+
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+
+  </head>
+
+  <body>
+
+      {% include header-bar.html %}
+
+      <div class="skeleton-page-width-constrainer">
+
+        <div class="skeleton-titles-margin-maker">
+
+          <h1 {% if page.url != "/" %} class="skeleton-title" {% endif %}
+              {% if page.url == "/" %} class="skeleton-title about-custom-titles" {% endif %}
+          >{{ page.title }}</h1>
+
+          <h2 class="skeleton-subtitle">{{ page.subtitle }}</h2>
+
+        </div>
+
+        {{ content }}
+
+        {% include footer-bar.html %}
+
+      </div>
+
+  </body>
+
+</html>
