@@ -1,4 +1,4 @@
-.common-list {
+.reusable-list {
   max-width: 600px;
 
   margin: 0px auto;
@@ -6,7 +6,7 @@
   list-style-type: none;
 }
 
-.common-list-item {
+.reusable-list-item {
   margin: 20px 0px;
   padding: 15px 20px;
 
@@ -14,27 +14,27 @@
 
   background-color: #F0F0F0;
 
-  transition: transform 0.05s ease;
+  transition: transform 0.07s ease;
 }
 
-.common-list-item-shadow {
+.reusable-list-item-shadow {
   display: block;
 
   border-radius: 20px;
 
-  background-color: #BDBDBD;
+  background-color: #CCCCCC;
 
   text-decoration: none;
 }
 
-.common-list-item-shadow:hover {
+.reusable-list-item-shadow:hover {
   opacity: 100%;
 }
 
-.common-list-item-shadow:hover > .common-list-item {
+.reusable-list-item-shadow:hover > .reusable-list-item {
   transform: translate(0px, -2px);
 }
 
-.common-list-item-shadow:active > .common-list-item {
+.reusable-list-item-shadow:active > .reusable-list-item {
   transform: translate(0px, 0px);
 }
