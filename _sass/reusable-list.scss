@@ -9,18 +9,21 @@
 }
 
 .reusable-list-item {
-  margin-top: 20px;
   padding: 15px 20px;
 
   border-radius: inherit;
 
   background-color: #EEEEEE;
 
+  font-size: 0.9em;
+
   transition: transform 0.07s ease-in-out;
 }
 
 .reusable-list-item-shadow {
   display: block;
+
+  margin-top: 20px;
 
   border-radius: 20px;
 
