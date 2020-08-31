@@ -1,29 +1,33 @@
 <nav>
-  {% for button in site.data.sitemap %}
+  <ul class="header-bar-buttons-centraliser">
+    {% for button in site.data.sitemap %}
 
-    <a
-      href="{{ button.endpoint }}"
+      <li class="header-bar-button">
+        <a
+          href="{{ button.endpoint }}"
 
-      {% if page.url == "/" and button.endpoint == "/" %}
-        class="about-selector"
-      {% endif %}
+          {% if page.url == "/" and button.endpoint == "/" %}
+            class="about-selector"
+          {% endif %}
 
-      {% if page.url contains "/links" and button.endpoint == "/links" %}
-        class="links-selector"
-      {% endif %}
+          {% if page.url contains "/links" and button.endpoint == "/links" %}
+            class="links-selector"
+          {% endif %}
 
-      {% if page.url contains "/projects" and button.endpoint == "/projects" %}
-        class="projects-selector"
-      {% endif %}
+          {% if page.url contains "/projects" and button.endpoint == "/projects" %}
+            class="projects-selector"
+          {% endif %}
 
-      {% if page.url contains "/blog" and button.endpoint == "/blog" %}
-        class="blog-selector"
-      {% endif %}
-    >
+          {% if page.url contains "/blog" and button.endpoint == "/blog" %}
+            class="blog-selector"
+          {% endif %}
+        >
 
-      {{ button.section }}
+          {{ button.section }}
 
-    </a>
+        </a>
+      </li>
 
-  {% endfor %}
+    {% endfor %}
+  </ul>
 </nav>

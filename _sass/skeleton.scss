@@ -9,8 +9,6 @@
   font-size: 18px;
 
   color: #202020;
-
-  // border: 1px dashed blue;
 }
 
 // .skeleton-page-width-constrainer {
@@ -86,21 +84,21 @@
 //   font-size: 18px;
 //   font-weight: 600;
 // }
-//
-// a {
-//   color: #FF7800;
-// }
-//
+
+a {
+  color: #FF7800;
+}
+
+a:hover {
+  opacity: 75%;
+}
+
+a:active {
+  opacity: 100%;
+}
+
 // a > img {
 //   color: #FF7800;
-// }
-
-// a:hover {
-//   opacity: 75%;
-// }
-//
-// a:active {
-//   opacity: 100%;
 // }
 
 // code {
@@ -141,6 +139,6 @@
 // }
 
 hr {
-  border: 2px solid #F2F2F2;
+  border: 2px solid #EEEEEE;
   border-radius: 2px;
 }
