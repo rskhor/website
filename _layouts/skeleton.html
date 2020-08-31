@@ -20,12 +20,12 @@
 
       {% include header-bar.html %}
 
-      <!-- <div class="skeleton-page-width-constrainer">
+      <div class="skeleton-width-constrainer">
 
         <div class="skeleton-titles-margin-maker">
 
           <h1 {% if page.url != "/" %} class="skeleton-title" {% endif %}
-              {% if page.url == "/" %} class="skeleton-title about-custom-titles" {% endif %}
+              {% if page.url == "/" %} class="skeleton-title about-custom-title" {% endif %}
           >{{ page.title }}</h1>
 
           <h2 class="skeleton-subtitle">{{ page.subtitle }}</h2>
@@ -34,7 +34,7 @@
 
         {{ content }}
 
-      </div> -->
+      </div>
 
       {% include footer-bar.html %}
 
