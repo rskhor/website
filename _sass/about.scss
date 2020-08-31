@@ -1,5 +1,6 @@
 .about-content-formatter {
   display: flex;
+  justify-content: space-around;
 
   padding: 0px 10px;
 }
@@ -12,26 +13,30 @@
   width: 230px;
   height: 230px;
 
-  margin-top: 1.0em;
-  margin-right: 30px;
+  margin: 0.9em 0px 0px 0px;
 
   border-radius: 25px;
 }
 
+.about-text-width-constrainer {
+  max-width: 480px;
+}
 
 
 @media screen and (max-width: 800px) {
   .about-content-formatter {
     flex-direction: column;
     align-items: center;
+
+    padding: 0px;
   }
 
   .about-profile-picture {
-    margin-right: 0px;
+    margin: 1.0em;
   }
 
   .about-text-width-constrainer {
-    max-width: 500px;
+    margin-top: 1.5em;
   }
 }
 
