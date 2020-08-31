@@ -1,77 +1,77 @@
-nav {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-
-  height: 80px;
-
-  padding: 0px 5px;
-
-  box-shadow: 0px 2px #E0E0E0;
-}
-
-nav > a {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-
-  height: 60px;
-  width: 150px;
-
-  margin: 5px;
-
-  border-radius: 10px;
-
-  font-size: 22px;
-  font-weight: 600;
-
-  color: #BDBDBD;
-  text-decoration: none;
-
-  transition: background-color 0.05s ease-in-out;
-}
-
-nav > a:hover {
-  opacity: 100%;
-
-  background-color: #F2F2F2;
-}
-
-@media screen and (max-width: 800px) {
-  nav {
-    height: 50px;
-
-    box-shadow: 0px 1px #E0E0E0;
-  }
-
-  nav > a {
-    height: 40px;
-    width: 200px;
-
-    margin: 2px;
-
-    font-size: 16px;
-  }
-}
-
-.about-selector {
-  color: #00BB29 !important;
-  background-color: #F2F2F2;
-}
-
-.links-selector {
-  color: #EE3B86 !important;
-  background-color: #F2F2F2;
-}
-
-.projects-selector {
-  color: #007CD7 !important;
-  background-color: #F2F2F2;
-}
-
-.blog-selector {
-  color: #FF6B00 !important;
-  background-color: #F2F2F2;
-}
+// nav {
+//   display: flex;
+//
+//   justify-content: center;
+//   align-items: center;
+//
+//   height: 80px;
+//
+//   padding: 0px 5px;
+//
+//   box-shadow: 0px 2px #E0E0E0;
+// }
+//
+// nav > a {
+//   display: flex;
+//
+//   justify-content: center;
+//   align-items: center;
+//
+//   height: 60px;
+//   width: 150px;
+//
+//   margin: 5px;
+//
+//   border-radius: 10px;
+//
+//   font-size: 22px;
+//   font-weight: 600;
+//
+//   color: #BDBDBD;
+//   text-decoration: none;
+//
+//   transition: background-color 0.05s ease-in-out;
+// }
+//
+// nav > a:hover {
+//   opacity: 100%;
+//
+//   background-color: #F2F2F2;
+// }
+//
+// @media screen and (max-width: 800px) {
+//   nav {
+//     height: 50px;
+//
+//     box-shadow: 0px 1px #E0E0E0;
+//   }
+//
+//   nav > a {
+//     height: 40px;
+//     width: 200px;
+//
+//     margin: 2px;
+//
+//     font-size: 16px;
+//   }
+// }
+//
+// .about-selector {
+//   color: #00BB29 !important;
+//   background-color: #F2F2F2;
+// }
+//
+// .links-selector {
+//   color: #EE3B86 !important;
+//   background-color: #F2F2F2;
+// }
+//
+// .projects-selector {
+//   color: #007CD7 !important;
+//   background-color: #F2F2F2;
+// }
+//
+// .blog-selector {
+//   color: #FF6B00 !important;
+//   background-color: #F2F2F2;
+// }

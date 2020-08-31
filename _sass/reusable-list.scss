@@ -1,40 +1,40 @@
-.reusable-list {
-  max-width: 600px;
-
-  margin: 0px auto;
-
-  list-style-type: none;
-}
-
-.reusable-list-item {
-  margin: 20px 0px;
-  padding: 15px 20px;
-
-  border-radius: 20px;
-
-  background-color: #F0F0F0;
-
-  transition: transform 0.07s ease;
-}
-
-.reusable-list-item-shadow {
-  display: block;
-
-  border-radius: 20px;
-
-  background-color: #CCCCCC;
-
-  text-decoration: none;
-}
-
-.reusable-list-item-shadow:hover {
-  opacity: 100%;
-}
-
-.reusable-list-item-shadow:hover > .reusable-list-item {
-  transform: translate(0px, -2px);
-}
-
-.reusable-list-item-shadow:active > .reusable-list-item {
-  transform: translate(0px, 0px);
-}
+// .reusable-list {
+//   max-width: 600px;
+//
+//   margin: 0px auto;
+//
+//   list-style-type: none;
+// }
+//
+// .reusable-list-item {
+//   margin: 20px 0px;
+//   padding: 15px 20px;
+//
+//   border-radius: 20px;
+//
+//   background-color: #F0F0F0;
+//
+//   transition: transform 0.07s ease;
+// }
+//
+// .reusable-list-item-shadow {
+//   display: block;
+//
+//   border-radius: 20px;
+//
+//   background-color: #CCCCCC;
+//
+//   text-decoration: none;
+// }
+//
+// .reusable-list-item-shadow:hover {
+//   opacity: 100%;
+// }
+//
+// .reusable-list-item-shadow:hover > .reusable-list-item {
+//   transform: translate(0px, -2px);
+// }
+//
+// .reusable-list-item-shadow:active > .reusable-list-item {
+//   transform: translate(0px, 0px);
+// }
