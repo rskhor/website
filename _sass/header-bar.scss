@@ -1,6 +1,7 @@
 nav {
-  box-shadow: 0px 2px #DDDDDD;
   padding: 0px 5px;
+
+  box-shadow: 0px 2px #DDDDDD;
 }
 
 .header-bar-buttons-centraliser {
@@ -32,7 +33,7 @@ nav {
   font-size: 1.2em;
   font-weight: 600;
 
-  color: #CCCCCC;
+  color: #BBBBBB;
   text-decoration: none;
 
   transition: background-color 0.05s linear;
@@ -49,6 +50,10 @@ nav {
     box-shadow: 0px 1px #DDDDDD;
   }
 
+  .header-bar-buttons-centraliser {
+    max-width: 800px;
+  }
+
   .header-bar-button > a {
     margin: 5px 2px;
     padding: 10px 0px;
@@ -57,22 +62,22 @@ nav {
   }
 }
 
-.about-selector {
+.header-bar-about-selector {
   color: #00BB29 !important;
   background-color: #F5F5F5;
 }
 
-.links-selector {
+.header-bar-links-selector {
   color: #EE3B86 !important;
   background-color: #F5F5F5;
 }
 
-.projects-selector {
+.header-bar-projects-selector {
   color: #007CD7 !important;
   background-color: #F5F5F5;
 }
 
-.blog-selector {
+.header-bar-blog-selector {
   color: #FF6B00 !important;
   background-color: #F5F5F5;
 }
