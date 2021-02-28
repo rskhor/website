@@ -44,7 +44,7 @@ a.project-grid-item-shadow {
   object-fit: cover;
   object-position: 50% 50%;
 
-  transition: transform 0.07s ease;
+  transition: transform 0.05s ease-in;
 }
 
 .project-grid-item-shadow:hover > .projects-grid-item {
