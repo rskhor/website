@@ -7,23 +7,12 @@ subtitle: Mostly illustrations and software stuff.
 {% assign sorted_projects = site.projects | reverse %}
 
 <ul class="projects-grid">
-  {% for project in sorted_projects %}
-
-    <li>
-
-      {% assign clean_url_size = project.url | size | minus: 5 %}
-
-      <a class="project-grid-item-shadow" href={{ project.url | slice: 0, clean_url_size }}>
-
-        <img
-          class="projects-grid-item"
-          src="{{ project.thumbnail }}"
-          alt='Image thumbnail for "{{ project.title }}"'
-        />
-
-      </a>
-
-    </li>
-
-  {% endfor %}
+{% for project in sorted_projects %}
+  <li>
+    {% assign clean_url_size = project.url | size | minus: 5 %}
+    <a class="project-grid-item-shadow" href={{ project.url | slice: 0, clean_url_size }}>
+      <img class="projects-grid-item" src="{{ project.thumbnail }}" alt='Image thumbnail for "{{ project.title }}"'/>
+    </a>
+  </li>
+{% endfor %}
 </ul>
