@@ -1,5 +1,9 @@
 # Personal Website
 
+## Live Version
+
+The live version is available at [rushan.pelagicapps.com](https://rushan.pelagicapps.com).
+
 ## Setup Guide
 
 Clone the repository and navigate into the project directory.
@@ -87,7 +91,3 @@ Write the contents of your post in Markdown.
 
 ![This is an image](/assets/images/filename.png "Your image caption")
 ```
-
-## Live Version
-
-The live version is available at [rushan.pelagicapps.com](https://rushan.pelagicapps.com).
