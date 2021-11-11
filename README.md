@@ -19,6 +19,8 @@ gem install --user-install webrick
 
 ## Development Guide
 
+### Run the development server
+
 Jekyll comes with a local development server that supports auto reloading.
 
 ```
@@ -26,6 +28,39 @@ jekyll serve
 ```
 
 View the website at [`localhost:4000`](http://localhost:4000/) in your browser.
+
+### Add a new Link entry
+
+1. Open `_date/links.yml`.
+1. Add a new `title` line.
+1. Add a new `url` line.
+
+### Add a new Project post
+
+1. Go to the `_projects` folder.
+1. Find a folder within that named after the year of your post.
+  - If it doesn't yet exist, create it.
+1. Add a new Markdown file for your Project post
+  - Markdown files have `.md` as their file extension.
+  - This file should be named with `kebab-case`.
+  - The filename will also be the URL endpoint of the post, sans the `.md`.
+1. Use the following template and add your content in Markdown in template body.
+
+```markdown
+---
+layout: skeleton
+title: Digital spaces
+subtitle: 09 August 2020
+thumbnail: "/assets/images/rectangular-tiles.png"
+---
+
+# Contents of your post
+
+Write the contents of your post in Markdown.
+```
+
+### Add a new Blog post
+
 
 ## Live Version
 
