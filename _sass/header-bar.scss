@@ -47,6 +47,7 @@ nav {
 
 .header-bar-button > a:active {
   transform: scale(0.97);
+  transition: transform 0.05s ease-out;
 }
 
 @media screen and (max-width: 800px) {

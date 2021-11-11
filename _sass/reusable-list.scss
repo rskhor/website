@@ -16,7 +16,7 @@
   background-color: #EEEEEE;
 
   font-size: 0.9em;
-  
+
   transition: transform 0.05s ease-in;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .reusable-list-item-shadow:hover > .reusable-list-item {
-  transform: translate(0px, -2px);
+  transform: translate(0px, -1.5px);
 }
 
 .reusable-list-item-shadow:active > .reusable-list-item {
