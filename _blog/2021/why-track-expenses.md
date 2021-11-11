@@ -77,10 +77,6 @@ arbitrary monthly budget I set in the cell with blue font.
 
 ![Screenshot of my expense tracker's report page](/assets/images/2021-expense-tracker-report-page.png "Screenshot of my expense tracker's report page")
 
-```
-ok
-```
-
 # Conclusion
 
 Is this useful or just kinda overkill? Well, as long as spend predictability
