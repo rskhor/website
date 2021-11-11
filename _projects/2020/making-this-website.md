@@ -2,10 +2,10 @@
 layout: skeleton
 title: Making this website
 subtitle: 26 August 2020
-thumbnail: "/assets/images/making-this-website.png"
+thumbnail: "/assets/images/2020-making-this-website.png"
 ---
 
-![Screenshot from the website design process](/assets/images/making-this-website.png "Screenshot from the website design process")
+![Screenshot from the website design process](/assets/images/2020-making-this-website.png "Screenshot from the website design process")
 
 # You must have bought a domain on impulse
 
@@ -23,13 +23,13 @@ For this website, I wanted to make something which looked colourful and fun. I t
 
 I've heard lots of good things about [Figma](https://www.figma.com/). It's basically a UI prototyping tool that runs in your browser. Truth is, I was initially _very_ skeptical about running any intense software in-browser (think Google Sheets) yet Figma completely blew my expectations out of the water. Somehow, the web app manages to be powerful yet fluid. You have to try it to believe it.
 
-![Screencast showing Figma in action](/assets/images/figma.gif "Screencast showing Figma in action")
+![Screencast showing Figma in action](/assets/images/2020-figma.gif "Screencast showing Figma in action")
 
 Anyway, I tried to nail down the exact colours and dimensions in Figma mockups before beginning to code. The idea was to focus mostly on pixel-pushing using the Figma GUI, and only later did I switch into the programming flow while wrangling flex boxes.
 
 These were the frames in my Figma project. Of course, the information architecture mirrors the site layout pretty closely.
 
-![Screenshot of various Figma frames](/assets/images/figma-frames.png "Screenshot of various Figma frames")
+![Screenshot of various Figma frames](/assets/images/2020-figma-frames.png "Screenshot of various Figma frames")
 
 # Using Jekyll for static site generation
 

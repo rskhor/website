@@ -2,10 +2,10 @@
 layout: skeleton
 title: Sneaker illustration
 subtitle: 01 July 2020
-thumbnail: "/assets/images/sneaker-square.png"
+thumbnail: "/assets/images/2020-sneaker-square.png"
 ---
 
-![Illustration of a sneaker](/assets/images/sneaker.png "Illustration of a sneaker")
+![Illustration of a sneaker](/assets/images/2020-sneaker.png "Illustration of a sneaker")
 
 # Hello again, Adobe Illustrator
 
