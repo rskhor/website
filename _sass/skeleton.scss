@@ -13,7 +13,7 @@
 }
 
 *::selection {
-  background-color: #00000011;
+  background-color: #0A1F3012;
 }
 
 .skeleton-centralizer {
@@ -44,7 +44,7 @@
 
   text-align: center;
 
-  color: #888888;
+  color: #0A1F3090;
 }
 
 @media screen and (max-width: 800px) {
@@ -84,22 +84,23 @@ h2, h3, h4, h5, h6 {
 }
 
 p a {
-  padding: 2px 5px;
+  padding: 3px 5px;
+  margin: -3px -5px;
 
   text-decoration: none;
-  color: #FF7800;
+  color: #007CD7;
 
   border-radius: 5px;
-
-  transition: background-color 0.03s linear;
 }
 
 p a:hover {
-  background-color: #FF780022;
+  background-color: #007CD722;
+  transition: background-color 0.01s cubic-bezier(0,.92,.67,.99);
 }
 
 p a:active {
-  background-color: #FF780044;
+  background-color: #007CD744;
+  transition: background-color 0.01s cubic-bezier(0,.92,.67,.99);
 }
 
 code {
@@ -107,12 +108,12 @@ code {
 
   font-family: "Source Code Pro", monospace;
   font-size: 0.85em;
-  color: #FF6B00;
+  color: #FF2B4E;
 
-  border: 1px solid #DDDDDD;
+  border: 1px solid #0A1F3020;
   border-radius: 10px;
 
-  background-color: #EEEEEE;
+  background-color: #0A1F3009;
 }
 
 pre > code {
@@ -121,7 +122,7 @@ pre > code {
   margin-top: 1.0em;
   padding: 10px;
 
-  color: #444444;
+  color: #0A1F30CC;
 }
 
 img {
@@ -133,11 +134,9 @@ img {
   margin: 1.4em auto 0px auto;
 
   border-radius: 25px;
-
-  background-color: #EEEEEE;
 }
 
 hr {
-  border: 2px solid #EEEEEE;
+  border: 2px solid #0A1F3010;
   border-radius: 2px;
 }

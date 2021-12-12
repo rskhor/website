@@ -4,30 +4,24 @@ title: Why I track my expenses
 subtitle: 10 November 2021
 ---
 
-# The backstory
+# Backstory
 
 So, Singaporean guys have to serve 2 years in the military when they hit 17.
 You get paid just under S$500 per month in a city where the cheapest room for
-rent goes for about S$700, if you're lucky. Most young adults live with their
-parents and I was lucky to be part of that majority... but some of my friends
-had complicated family situations and were pushed to think very far outside the
-box in order to make the math work. The whole idea of societal equality started
-to feel like a massive lie once I met more people and saw what the 2 years of
-conscription were doing to their lives and choices.
+rent goes for about S$700. It was during this time in my life that I decided to
+start tracking where my money was going each month.
 
-It was during this time and backdrop that I decided to start tracking where my
-money was going each month. I came up with a pretty simple template that I've
-been using ever since. It's followed me through 2 years of the aforementioned
-military service, then through a break where I worked odd jobs to amass money
-for travel and investing, and finally through 4 years of university ending in
-the summer of 2020.
+I came up with a pretty simple template that I've been using ever since. It's
+followed me through 2 years of the aforementioned military service, then through
+a period where I worked odd jobs in order to amass money for travel and
+investing.
 
-When COVID hit, I graduated into a pretty uncertain economy where nobody was
-hiring, and I got a ton of value out of being able to project my monthly
-expenses to a high degree of certainty. Years of tracking meant that I knew what
-the forward burndown rate on my savings would be over what could have very well
-been 2 years of unemployment. I lived alone, so that made calculations pretty
-straightforward.
+When 2020 came around, I graduated into a pretty uncertain economy where nobody
+was hiring. However, I got a ton of value out of being able to project my
+monthly expenses to a high degree of certainty. Years of tracking meant that I
+knew what the forward burndown rate on my savings would be, over what could have
+very well been 2 years of unemployment. I had the benefit of living alone at
+that time, so that made calculations pretty straightforward.
 
 # How it works
 
@@ -38,14 +32,23 @@ months of runway I had left given the same lifestyle. There are many
 expense-tracking apps out there, but I prefer the simplicity and flexibility of
 using my own Google Sheets model.
 
-## The basic model contains regular daily expenses
+Additionally, when you record your expenses every day, you get
+_realtime feedback_ about whether you're spending too much on any given day or
+week. This lets you make immediate decisions regarding how much you want to
+spend in the rest of the month, if you're targeting a certain budget.
+
+## Start with regular, daily expenses
 
 It starts with just 3 columns, for the date, description, and dollar amount of
 each and every expense. I personally like to add one new sheet per month.
 
 ![Screenshot of my expense tracker's month page](/assets/images/2021-expense-tracker-month-page.png "Screenshot of my expense tracker's month page")
 
-## The need to break down large, irregular purchases
+If you want realtime calculations, there's no shortcut around manually adding
+these rows into your spreadsheet each day. Over time, I've found that this habit
+stops feeling like a chore, but it does take some getting used to at first.
+
+## Breaking down large, irregular purchases
 
 But what if you're making a large purchase like a laptop? That throws off your
 monthly budget. Remember, while the immediately-obvious benefit of any expense
@@ -80,5 +83,5 @@ arbitrary monthly budget I set in the cell with blue font.
 # Conclusion
 
 Is this useful or just kinda overkill? Well, as long as spend predictability
-enables me to make long-term plans, I don't see myself quitting the
-expense-tracking habit anytime soon.
+enables me to make long-term plans, I don't see myself quitting this
+expense-tracking habit anytime soon 😬

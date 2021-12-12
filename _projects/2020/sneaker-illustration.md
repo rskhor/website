@@ -11,7 +11,7 @@ thumbnail: "/assets/images/2020-sneaker-square.png"
 
 Adobe Illustrator is a vector graphics software, often used to make 2D graphics such as this one. These graphics are in turn exported for various uses in both print mediums and digital interfaces.
 
-I started messing around with Illustrator back in high school (obviously, I was too cool to be doing anything productive like studying) and eventually did some freelance graphic design work with the software for remote clients.
+I started messing around with Illustrator back in high school. Obviously, I was too cool to be doing anything productive like studying, and eventually ended up doing some freelance graphic design work for remote clients.
 
 Sadly, I lost touch with Adobe Illustrator during university, so I recently committed myself to making simple illustrations on a regular basis in order to familiarise myself with the software again, and finally learn about the advanced features this time round.
 

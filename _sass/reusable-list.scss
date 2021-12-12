@@ -13,11 +13,11 @@
 
   border-radius: inherit;
 
-  background-color: #EEEEEE;
+  background-color: #F2F3F5;
 
   font-size: 0.9em;
 
-  transition: transform 0.05s cubic-bezier(.16,.82,.43,.9);
+  transition: transform 0.05s linear;
 }
 
 .reusable-list-item-shadow {
@@ -27,7 +27,7 @@
 
   border-radius: 20px;
 
-  background-color: #CCCCCC;
+  background-color: #0A1F3030;
 
   text-decoration: none;
 }
@@ -37,7 +37,7 @@
 }
 
 .reusable-list-item-shadow:hover > .reusable-list-item {
-  transform: translate(0px, -1.5px);
+  transform: translate(0px, -2px);
 }
 
 .reusable-list-item-shadow:active > .reusable-list-item {

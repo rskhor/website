@@ -1,7 +1,7 @@
 nav {
   padding: 0px 5px;
 
-  box-shadow: 0px 2px #DDDDDD;
+  box-shadow: 0px 2px #0A1F3015;
 }
 
 .header-bar-buttons-centralizer {
@@ -33,26 +33,26 @@ nav {
   font-size: 1.2em;
   font-weight: 600;
 
-  color: #BBBBBB;
+  color: #0A1F3035;
   text-decoration: none;
 
-  transition: background-color 0.05s linear;
+  transition: background-color 0.05s cubic-bezier(0,.92,.67,.99);
 }
 
 .header-bar-button > a:hover {
   opacity: 100%;
 
-  background-color: #F5F5F5;
+  background-color: #0A1F3009;
 }
 
 .header-bar-button > a:active {
-  transform: scale(0.97);
-  transition: transform 0.05s cubic-bezier(.16,.82,.43,.9);
+  transform: scale(0.96);
+  transition: transform 0.05s cubic-bezier(0,.92,.67,.99);
 }
 
 @media screen and (max-width: 800px) {
   nav {
-    box-shadow: 0px 1px #DDDDDD;
+    box-shadow: 0px 1px #0A1F3020;
   }
 
   .header-bar-buttons-centralizer {
@@ -69,20 +69,20 @@ nav {
 
 .header-bar-about-selector {
   color: #00BB29 !important;
-  background-color: #F5F5F5;
+  background-color: #0A1F3009;
 }
 
 .header-bar-links-selector {
   color: #EE3B86 !important;
-  background-color: #F5F5F5;
+  background-color: #0A1F3009;
 }
 
 .header-bar-projects-selector {
   color: #007CD7 !important;
-  background-color: #F5F5F5;
+  background-color: #0A1F3009;
 }
 
 .header-bar-blog-selector {
   color: #FF6B00 !important;
-  background-color: #F5F5F5;
+  background-color: #0A1F3009;
 }
