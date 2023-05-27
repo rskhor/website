@@ -1,6 +1,8 @@
 nav {
-  padding: 0px 5px;
+  height: 79.5px;
 
+  padding: 0px 5px;
+  
   box-shadow: 0px 2px #0A1F3015;
 }
 
@@ -52,6 +54,8 @@ nav {
 
 @media screen and (max-width: 800px) {
   nav {
+    height: 50.5px;
+
     box-shadow: 0px 1px #0A1F3020;
   }
 
