@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<title>{{ page.title }}</title>
 
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-    <title>{{ page.title }}</title>
-    <link rel="icon" href="/favicon.ico"/>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
-  </head>
+<!-- Load styles -->
 
-  <body>
-      {% include header-bar.html %}
-      <div class="skeleton-centralizer">
-        <div class="skeleton-titles-positioner">
-          <h1 {% if page.url != "/" %} class="skeleton-title" {% endif %} {% if page.url == "/" %} class="skeleton-title about-custom-title" {% endif %}>{{ page.title }}</h1>
-          <h2 class="skeleton-subtitle">{{ page.subtitle }}</h2>
-        </div>
-        {{ content }}
-      </div>
-      {% include footer-bar.html %}
-  </body>
+<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+<link rel="icon" href="/favicon.ico"/>
 
+<!-- Load fonts -->
+
+<link rel="preload" href="/assets/fonts/sourcesanspro-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/sourcesanspro-semibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/sourcecodepro-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Declare fonts -->
+
+<style>
+  @font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-display: block;
+  src: url("/assets/fonts/sourcesanspro-regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-display: block;
+    src: url("/assets/fonts/sourcesanspro-semibold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Source Code Pro";
+    font-weight: 400;
+    font-display: block;
+    src: url("/assets/fonts/sourcecodepro-regular.woff2") format("woff2");
+  }
+</style>
+
+</head>
+<body>
+  {% include header-bar.html %}
+  <div class="skeleton-centralizer">
+    <div class="skeleton-titles-positioner">
+      <h1 {% if page.url != "/" %} class="skeleton-title" {% endif %} {% if page.url == "/" %} class="skeleton-title about-custom-title" {% endif %}>{{ page.title }}</h1>
+      <h2 class="skeleton-subtitle">{{ page.subtitle }}</h2>
+    </div>
+    {{ content }}
+  </div>
+  {% include footer-bar.html %}
+</body>
 </html>

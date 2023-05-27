@@ -5,10 +5,10 @@
   padding: 0px;
 
   -webkit-font-smoothing: antialiased;
-
+  
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
-
+  
   color: #202020;
 }
 
@@ -20,7 +20,7 @@
   max-width: 800px;
 
   margin: 0px auto;
-  padding: 0px 10px;
+  padding: 0px 15px;
 }
 
 .skeleton-titles-positioner {
@@ -106,13 +106,14 @@ p a:active {
 code {
   padding: 2px 8px;
 
-  font-family: "Source Code Pro", monospace;
-  font-size: 0.85em;
-  color: #FF2B4E;
-
   border: 1px solid #0A1F3020;
   border-radius: 10px;
 
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.85em;
+  
+  color: #FF2B4E;
+  
   background-color: #0A1F3009;
 }
 
