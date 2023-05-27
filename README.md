@@ -1,13 +1,21 @@
-# Personal Website
+# Website
 
 ## Live Version
 
-The live version is available at [rushan.pelagicapps.com](https://rushan.pelagicapps.com).
+The live version is available at [rushan.pelagicworld.com](https://rushan.pelagicworld.com).
+
+## Hosting Overview
+
+The static files for the live version are all stored in [Amazon S3](https://aws.amazon.com/s3).
+I'm caching these files close to end-users by using [Cloudflare](https://www.cloudflare.com) as a CDN.
+
+This speeds up load times dramatically since the Amazon S3 bucket is in the **Asia Pacific (Tokyo)** AWS Region
+but most users are based far away in either Singapore or New York City.
 
 ## Setup Guide
 
 Clone the repository and navigate into the project directory.
-Next, [install Jekyll](https://jekyllrb.com/docs/installation/macos/).
+Next, [install Jekyll](https://jekyllrb.com/docs/installation/macos).
 
 ```
 brew install ruby
@@ -35,21 +43,20 @@ View the website at [`localhost:4000`](http://localhost:4000/) in your browser.
 
 ### Add a new Link entry
 
-1. Open `_date/links.yml`.
+1. Open `_data/links.yml`.
 1. Add a new `title` line.
 1. Add a new `url` line.
 
 ### Add a new Project post
 
-1. Go to, or create, the `_projects` folder.
-1. Find a folder within that named after the year of your post.
-    - If it doesn't yet exist, create it.
-1. Add a new Markdown file for your Project post
+1. Create a `_projects` folder if it does not already exist.
+1. Create a folder within it with the same name as the year of your new post.
+    - For instance, `2021`.
+1. Add a new Markdown file for your Project post.
     - Markdown files have `.md` as their file extension.
     - This file should be named with `kebab-case`.
-    - The filename will also be the URL endpoint of the post, sans the `.md`.
-1. Use the following template and add your content in Markdown below the header
-block.
+    - The filename will also be the URL endpoint of the post, sans the `.md` file extension.
+1. Use the following template and add your content in Markdown below the header block.
 
 ```markdown
 ---
@@ -68,15 +75,14 @@ Write the contents of your post in Markdown.
 
 ### Add a new Blog post
 
-1. Go to, or create, the `_blog` folder.
-1. Find a folder within that named after the year of your post.
-    - If it doesn't yet exist, create it.
-1. Add a new Markdown file for your Blog post
+1. Create a `_blog` folder if it does not already exist.
+1. Create a folder within it with the same name as the year of your new post.
+    - For instance, `2021`.
+1. Add a new Markdown file for your Blog post.
     - Markdown files have `.md` as their file extension.
     - This file should be named with `kebab-case`.
-    - The filename will also be the URL endpoint of the post, sans the `.md`.
-1. Use the following template and add your content in Markdown below the header
-block.
+    - The filename will also be the URL endpoint of the post, sans the `.md` file extension.
+1. Use the following template and add your content in Markdown below the header block.
 
 ```markdown
 ---
