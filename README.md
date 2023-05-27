@@ -9,8 +9,8 @@ The live version is available at [rushan.pelagicworld.com](https://rushan.pelagi
 The static files for the live version are all stored in [Amazon S3](https://aws.amazon.com/s3).
 I'm caching these files close to end-users by using [Cloudflare](https://www.cloudflare.com) as a CDN.
 
-This speeds up load times dramatically since the Amazon S3 bucket is in the **Asia Pacific (Tokyo)** AWS Region
-but most users are based far away in either Singapore or New York City.
+This speeds up load times dramatically since the Amazon S3 bucket is in the AWS Region **Asia Pacific (Tokyo)**
+but most readers of this website are based far away in either Singapore or New York City.
 
 ## Setup Guide
 
