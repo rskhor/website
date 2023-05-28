@@ -5,7 +5,7 @@ subtitle: 01 July 2020
 thumbnail: "/assets/images/2020-sneaker-square.png"
 ---
 
-![Illustration of a sneaker](/assets/images/2020-sneaker.png "Illustration of a sneaker")
+![Illustration of a sneaker](/assets/images/2020-sneaker.png "Illustration of a sneaker"){:style="height: 289.508px"}
 
 # Hello again, Adobe Illustrator
 

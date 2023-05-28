@@ -42,7 +42,7 @@ spend in the rest of the month, if you're targeting a certain budget.
 It starts with just 3 columns, for the date, description, and dollar amount of
 each and every expense. I personally like to add one new sheet per month.
 
-![Screenshot of my expense tracker's month page](/assets/images/2021-expense-tracker-month-page.png "Screenshot of my expense tracker's month page")
+![Screenshot of my expense tracker's month page](/assets/images/2021-expense-tracker-month-page.png "Screenshot of my expense tracker's month page"){:style="height: 304.828px"}
 
 If you want realtime calculations, there's no shortcut around manually adding
 these rows into your spreadsheet each day. Over time, I've found that this habit
@@ -68,7 +68,7 @@ the word, but I do want to split up the large ones so that I can get a sense of
 how much I'm paying for each week of utility. In the example below, I've split
 up some annual recurring expenses into their per-week equivalents.
 
-![Screenshot of my expense tracker's amortisation page](/assets/images/2021-expense-tracker-amortised-page.png "Screenshot of my expense tracker's amortisation page")
+![Screenshot of my expense tracker's amortisation page](/assets/images/2021-expense-tracker-amortised-page.png "Screenshot of my expense tracker's amortisation page"){:style="height: 208.695px"}
 
 ## Add them up
 
@@ -78,7 +78,7 @@ much I've spent so far in the `Total` column, as well as how much I can spend
 for the rest of the week in the `Left` column, which is calculated based on an
 arbitrary monthly budget I set in the cell with blue font.
 
-![Screenshot of my expense tracker's report page](/assets/images/2021-expense-tracker-report-page.png "Screenshot of my expense tracker's report page")
+![Screenshot of my expense tracker's report page](/assets/images/2021-expense-tracker-report-page.png "Screenshot of my expense tracker's report page"){:style="height: 241.336px"}
 
 # Conclusion
 
