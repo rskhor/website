@@ -4,13 +4,21 @@
 <ul class="header-bar-list">
 {% for button in site.data.sitemap %}
   <li>
-    <a href="{{ button.endpoint }}" class="header-bar-button"
-      {% if page.url == "/" and button.endpoint == "/about" %}class="header-bar-button header-bar-about-selector"{% endif %}
-      {% if page.url contains '/links.html' and button.endpoint contains '/links' %}class="header-bar-links-selector"{% endif %}
-      {% if page.url contains "/projects" and button.endpoint == "/projects" %}class="header-bar-projects-selector"{% endif %}
-      {% if page.url contains "/blog" and button.endpoint contains "/blog" %}class="header-bar-blog-selector"{% endif %}
+    <a href="{{ button.endpoint }}"
+      {% if page.url == "/" and button.endpoint == "/" %}
+        class="header-bar-button header-bar-about-selector"
+      {% elsif page.url contains '/links.html' and button.endpoint contains '/links' %}
+        class="header-bar-button header-bar-links-selector"
+      {% elsif page.url contains "/projects" and button.endpoint == "/projects" %}
+        class="header-bar-button header-bar-projects-selector"
+      {% elsif page.url contains "/blog" and button.endpoint contains "/blog" %}
+        class="header-bar-button header-bar-blog-selector"
+      {% else %}
+        class="header-bar-button"
+      {% endif %}
     >
       {{ button.section }}
+
     </a>
   </li>
 {% endfor %}
