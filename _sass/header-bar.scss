@@ -2,8 +2,15 @@ nav {
   height: 79.5px;
 
   padding: 0px 5px;
+
+hr.header-bar-divider {
+  border: 1px solid #0A1F3015;
+}
+
+.header-bar-buttons-max-width {
+  max-width: 650px;
   
-  box-shadow: 0px 2px #0A1F3015;
+  margin: 0px auto;
 }
 
 .header-bar-buttons-aligner {
@@ -55,8 +62,6 @@ nav {
 @media screen and (max-width: 800px) {
   nav {
     height: 50.5px;
-
-    box-shadow: 0px 1px #0A1F3020;
   }
 
   .header-bar-buttons-aligner {
@@ -68,6 +73,10 @@ nav {
     padding: 10px 0px;
 
     font-size: 0.9em;
+  }
+  
+  hr.header-bar-divider {
+    border: 0.5px solid #0A1F3020;
   }
 }
 

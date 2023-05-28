@@ -1,16 +1,19 @@
+<div class="header-bar-buttons-max-width">
 <nav>
-  <ul class="header-bar-buttons-aligner">
-  {% for button in site.data.sitemap %}
-    <li class="header-bar-button">
-      <a href="{{ button.endpoint }}"
-        {% if page.url == "/" and button.endpoint == "/" %}class="header-bar-about-selector"{% endif %}
-        {% if page.url contains "/links" and button.endpoint == "/links" %}class="header-bar-links-selector"{% endif %}
-        {% if page.url contains "/projects" and button.endpoint == "/projects" %}class="header-bar-projects-selector"{% endif %}
-        {% if page.url contains "/blog" and button.endpoint == "/blog" %}class="header-bar-blog-selector"{% endif %}
-      >
-        {{ button.section }}
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
+<ul class="header-bar-buttons-aligner">
+{% for button in site.data.sitemap %}
+  <li class="header-bar-button">
+    <a href="{{ button.endpoint }}"
+      {% if page.url == "/" and button.endpoint == "/" %}class="header-bar-about-selector"{% endif %}
+      {% if page.url contains "/links" and button.endpoint == "/links" %}class="header-bar-links-selector"{% endif %}
+      {% if page.url contains "/projects" and button.endpoint == "/projects" %}class="header-bar-projects-selector"{% endif %}
+      {% if page.url contains "/blog" and button.endpoint == "/blog" %}class="header-bar-blog-selector"{% endif %}
+    >
+      {{ button.section }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 </nav>
+</div>
+<hr class="header-bar-divider"/>
