@@ -16,16 +16,22 @@
   background-color: #0A1F3012;
 }
 
-.skeleton-centralizer {
+.skeleton-aligner {
   max-width: 800px;
 
   margin: 0px auto;
   padding: 0px 15px;
 }
 
-.skeleton-titles-positioner {
-  margin: 120px 0px;
+.skeleton-titles-vertical-aligner {
+  height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.skeleton-titles {}
 
 .skeleton-title {
   margin-top: 0px;
@@ -48,8 +54,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .skeleton-titles-positioner {
-    margin: 80px 0px;
+  .skeleton-titles-vertical-aligner {
+    height: 250px;
   }
 
   .skeleton-title {
