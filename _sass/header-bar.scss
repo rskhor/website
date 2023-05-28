@@ -4,9 +4,6 @@ nav {
   padding: 0px 5px;
 }
 
-hr.header-bar-divider {
-  border: 1px solid #0A1F3015;
-}
 
 .header-bar-buttons-max-width {
   max-width: 650px;
@@ -47,6 +44,10 @@ hr.header-bar-divider {
   text-decoration: none;
 
   transition: background-color 0.05s cubic-bezier(0,.92,.67,.99);
+}
+
+hr.header-bar-divider {
+  border: 1px solid #0A1F3015;
 }
 
 .header-bar-button > a:hover {
