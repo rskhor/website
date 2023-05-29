@@ -12,7 +12,15 @@ I'm caching these files close to end-users by using [Cloudflare](https://www.clo
 This speeds up load times dramatically since the Amazon S3 bucket is in the AWS Region **Asia Pacific (Tokyo)**
 but most readers of this website are based far away in either Singapore or New York City.
 
-### Configure CDN cache behavior using HTTP headers
+### Create an allowlist so your CDN can read from your origin server
+
+Access to your object store should be limited to your CDN, and for read operations only.
+
+AWS has a guide for this in their
+[S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html#example-bucket-policies-IP).
+This will involve adding the full list of [Cloudflare IP addresses](https://www.cloudflare.com/ips) to the S3 Bucket Policy section.
+
+### Configure your CDN eviction policy using HTTP headers
 
 Make sure your origin server sends an informative `Cache-Control` header over to your CDN in HTTP responses.
 
@@ -20,24 +28,17 @@ Make sure your origin server sends an informative `Cache-Control` header over to
 Cache-Control: public, max-age=31536000, immutable
 ```
 
-If you plan to purge the CDN cache manually, you can get away with setting a long `max-age`.
+If you plan to evict the CDN cache manually, you can get away with setting a long `max-age`.
 
 ### Configure client browser HTML rendering using HTTP headers
 
 Make sure that your origin server returns the correct `Content-Type` headers, especially for HTML files.
-If the header is absent, client browsers might treat the HTML file as a file download, instead of performing rendering.
+If the header is absent, client browsers might not render the HTML file,
+and instead treat it as a file download if it lacks a `.html` file extension.
 
 ```
 Content-Type: text/html
 ```
-
-### Create an allowlist so your CDN can read from origin server
-
-Access to your object store should be limited to Cloudflare, and for read operations only.
-
-AWS has a guide for this in their
-[S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html#example-bucket-policies-IP).
-This will involve adding the full list of [Cloudflare IP addresses](https://www.cloudflare.com/ips) to the S3 Bucket Policy section.
 
 ## Setup Guide
 
