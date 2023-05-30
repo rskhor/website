@@ -25,10 +25,20 @@ This will involve adding the full list of [Cloudflare IP addresses](https://www.
 Make sure your origin server sends an informative `Cache-Control` header over to your CDN in HTTP responses.
 
 ```
-Cache-Control: public, max-age=31536000, immutable
+Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable
 ```
 
 If you plan to evict the CDN cache manually, you can get away with setting a long `max-age`.
+
+### Configure HTML and image caching in Cloudflare using Page Rules
+
+In your [Cloudflare dashboard](dash.cloudflare.com), click on your website, go to its **Rules** section, and create a new Page Rule.
+
+- Set **Cache Level** to **Cache Everything**
+- Set **Edge Cache TTL** to **a month**
+
+In theory, setting a large **Edge Cache TTL** should prevent Cloudflare from evicting the static files
+from its edge caches even for websites with low traffic.
 
 ### Configure client browser HTML rendering using HTTP headers
 
@@ -39,6 +49,23 @@ and instead treat it as a file download if it lacks a `.html` file extension.
 ```
 Content-Type: text/html
 ```
+
+### Performance strategies not implemented
+
+#### Minification
+
+It appears that content download times are under 50 ms for most pages, and they are not a significant component of overall load times.
+The predominant components of the load times involve connection setup, roundtrips to the CDN, and roundtrips to the origin server on cache misses.
+
+#### HTTP/2 Server Push
+
+Google Chrome has [removed support for HTTP/2 Server Push](https://developer.chrome.com/blog/removing-push),
+so it's not quite worth the implementation complexity.
+
+#### Link prefetching
+
+There isn't a linear user journey through the website
+so it's not viable to determine how and when to prefetch resources other than CSS and fonts.
 
 ## Setup Guide
 
