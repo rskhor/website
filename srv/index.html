@@ -1,0 +1,188 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Ru Shan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="./favicon.svg">
+	<style>
+		:root {
+			--color-theme: seagreen;
+			--color-text: darkslategray;
+			--color-selection: #EEE;
+			--color-underline: lightgray;
+			--font-sans-serif: sans-serif;
+			--font-serif: serif;
+			--icon-stroke-width: 1.75px;
+			--icon-gap-large: 5px;
+			--icon-gap-small: 3px;
+		}
+		body {
+			max-width: 800px;
+			margin: auto;
+			padding: 10px;
+			font-size: 1.1em;
+			font-family: var(--font-serif);
+			color: var(--color-text);
+		}
+		body::selection {
+			background-color: var(--color-selection)
+		}
+		h1 {
+			font-weight: normal;
+			font-family: var(--font-sans-serif);
+		}
+		h2, h3, h4, h5, h6 {
+			font-weight: normal;
+			font-family: var(--font-sans-serif);
+		}
+		a {
+			color: var(--color-theme);
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: wavy underline;
+			text-decoration-color: var(--color-underline);
+		}
+		hr {
+			margin-top: 40px;
+			border: thin solid var(--color-underline);
+			border-bottom: none;
+		}
+		#header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		#social {
+			font-family: var(--font-sans-serif);
+			list-style: none;
+			padding-left: 0;
+		}
+		.social-link {
+			display: flex;
+			align-items: center;
+			column-gap: var(--icon-gap-small);
+		}
+		.title {
+			display: flex;
+			align-items: center;
+			column-gap: var(--icon-gap-large);
+		}
+		#footer {
+			margin-bottom: 50px;
+			display: flex;
+			align-items: center;
+			justify-content: end;
+			column-gap: var(--icon-gap-small);
+			font-family: var(--font-sans-serif);
+		}
+		.icon-base {
+			fill: none;
+			stroke: var(--color-theme);
+			stroke-width: var(--icon-stroke-width);
+		}
+		.icon-social {
+			height: 16px;
+			width: 16px;
+		}
+		.icon-title {
+			height: 32px;
+			width: 32px;
+		}
+		.icon-footer {
+			height: 24px;
+			width: 24px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>rskhor.com</h1>
+		<ul id="social">
+			<div class="social-link">
+				<svg class="icon-social" viewBox="0 0 98 96"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#24292f"/></svg>
+				<li><a href="https://github.com/rskhor">GitHub</a></li>
+			</div>
+			<div class="social-link">
+				<svg class="icon-social" viewBox="0 0 72 72">
+					<path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#007EBB"/>
+					<path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="white"/>
+				</svg>
+				<li><a href="https://linkedin.com/in/rushankhor">LinkedIn</a></li>
+			</div>
+		</ul>
+	</div>
+	
+	<hr />
+	<div class="title">
+		<svg class="icon-base icon-title" viewBox="0 0 24 24">
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+			/>
+		</svg>
+		<h2>About Me</h2>
+	</div>
+	<p>
+		Hey! 👋
+	</p>
+	<p>
+		I'm Ru Shan, a software engineer at <a href="https://prequel.co">Prequel</a>.
+		We enable companies to seamlessly export data out from their data warehouses.
+	</p>
+	<p>
+		Prior to this, I worked on a real-time trading application at <a href="https://mojo.com">Mojo</a>,
+		that enabled traders to manage large swathes of sports betting markets during live games.
+		And before that, I worked with virtual cards and ACH transfers at <a href="https://teampay.co">Teampay</a>,
+		in the spend management space.
+	</p>
+	<p>
+		I'm most comfortable working with the Python ecosystem, but I'm aiming to become proficient at Go as well.
+	</p>
+
+	<hr />
+	<div class="title">
+		<svg class="icon-base icon-title" viewBox="0 0 24 24">
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
+			/>
+		</svg>
+		<h2>Reading List</h2>
+	</div>
+	<p>Books that changed how I see the world.</p>
+	<ul>
+		<li><a href="https://www.goodreads.com/book/show/23692271-sapiens">Sapiens: A Brief History of Humankind</a> by Yuval Noah Harari</li>
+		<li><a href="https://www.goodreads.com/book/show/90590134-the-coming-wave">The Coming Wave: AI, Power, and Our Future</a> by Mustafa Suleyman</li>
+		<li><a href="https://www.goodreads.com/book/show/18050143-zero-to-one">Zero to One: Notes on Startups</a> by Peter Thiel</li>
+		<li><a href="https://www.goodreads.com/book/show/254497.Consciousness">Consciousness: A Very Short Introduction</a> by Susan Blackmore</li>
+	</ul>
+
+	<hr />
+	<div class="title">
+		<svg class="icon-base icon-title"  viewBox="0 0 24 24">
+			<path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+			<path d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+		</svg>
+		<h2>Watchlist</h2>
+	</div>
+	<p>Interesting talks & ideas.</p>
+	<ul>
+		<li><a href="https://youtu.be/AfQxyVuLeCs">Intro lecture to MIT 6.002 Circuits and Electronics</a> by Anant Agarwal</li>
+		<li><a href="https://vimeo.com/906418692">Inventing on Principle</a> by Bret Victor</li>
+	</ul>
+
+	<hr />
+	<div id="footer">
+		<svg class="icon-base icon-footer" viewBox="0 0 24 24">
+			<path d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+			<path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+		</svg>
+		<p>New York City</p>
+	</div>
+</svg>
+</body>
+</html>

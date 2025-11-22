@@ -1,7 +1,0 @@
-destination: ./website
-
-collections:
-  projects:
-    output: true
-  blog:
-    output: true
